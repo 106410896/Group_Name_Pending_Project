@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Applied Web Project - apply page (Fantastic5)">
+        <meta name="keywords" content="HTML, COS10026, Project, Apply page, Fantastic5">
+        <meta name="author" content="Alagarsamy Chandrasekar Shashanth Kumar">
+        <title>Apply</title>
+    </head>
+
+    <body>
+
+        <h1> Apply </h1>
+
+        <br>
+
+        <form action="submit.php" method="post">
+
+
+                <label for="job_reference_number">Job Reference Number:</label>
+                <input type="text" id="job_reference_number" name="job_reference_number" pattern="[0-9]{6}" required>
+
+                <br>
+
+
+            <!-- Personal Details container box-->
+            <fieldset>
+
+                <legend>Personal Details</legend>
+
+                <!-- First Name Field -->
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="given_name" name="given_name" pattern="[A-Za-z\s]{1,20}" required>
+
+                <!-- Last Name Field -->
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name" pattern="[A-Za-z\s]{1,20}" required>
+
+            </fieldset>
+            
+        </form>
+
+    </body>
+</html>
