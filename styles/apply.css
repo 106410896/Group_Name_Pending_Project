@@ -6,24 +6,43 @@ author: Alagarsamy Chandrasekar Shashanth Kumar
 
 created: 1 September 2026 (01/09/2026)
 
-last modified: 1 September 2026 (01/09/2026)
+last modified: 6 September 2026 (06/09/2026)
 
 description: links to apply.html
 
 */
 
+/* changes heading color, size, and makes it bold */
 h1 {
     color:brown;
     font-size: 2em;
     font-weight: bold;
 }
 
+/* turns job ref number label border into blue colour and spaces it out, to make it more standout */
 #job_reference_number {
     border: 1px solid blue;
     border-radius:2em;
     margin: 2em;
 }
 
-.personal-details {
+/* spacing */
+.personal-details, .address {
+    margin: 15px;
+}
+
+/* spacing */
+.personal-details-main-fieldset {
     margin-bottom: 15px;
+}
+
+/* spacing */
+.state-subgroup {
+    margin-left: 15px;
+}
+
+/* changes width of postcode field to match expected user input */
+#postcode {
+    display: inline-block;
+    width: 4em;
 }
