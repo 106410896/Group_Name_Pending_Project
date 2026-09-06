@@ -76,8 +76,8 @@
 
                 <!-- Address Field -->
                  <div class="address">
-                    <label for="suburb-town">Suburb/Town:</label>
-                    <input type="text" id="suburb-town" name="suburb-town" pattern="[A-Za-z0-9\s]{1,40}" required>
+                    <label for="suburb_town">Suburb/Town:</label>
+                    <input type="text" id="suburb_town" name="suburb_town" pattern="[A-Za-z0-9\s]{1,40}" required>
                  </div>
 
                 <!-- Dropdown list for state selection-->
@@ -101,8 +101,28 @@
                 <!-- Postcode field -->
                  <div class="address">
                     <label for="postcode">Postcode</label>
-                    <input type="text" id="postcode" name="postcode" [0-9] {4} required>
+                    <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required>
                  </div>
+
+            </fieldset>
+
+
+            <!-- Contact Details fieldset -->
+            <fieldset class="contact-details-main-fieldset">
+
+               <legend>Contact Details</legend>
+
+               <!-- Email field -->
+               <div class="contact-details">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+               </div>
+
+               <!-- Phone number field -->
+               <div class="contact-details">
+                  <label for="phone_number">Phone Number:</label>
+                  <input type="text" id="phone_number" name="phone_number" [0-9] {8,12} required>
+               </div>
 
             </fieldset>
             

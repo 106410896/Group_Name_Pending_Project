@@ -26,13 +26,13 @@ h1 {
     margin: 2em;
 }
 
-/* spacing */
-.personal-details, .address {
+/* equal spacing between fields */
+.personal-details, .address, .contact-details {
     margin: 15px;
 }
 
-/* spacing */
-.personal-details-main-fieldset {
+/* equal spacing between fieldsets */
+.personal-details-main-fieldset, .address-main-fieldset {
     margin-bottom: 15px;
 }
 
