@@ -1,0 +1,59 @@
+/*
+
+filename: apply.css
+
+author: Alagarsamy Chandrasekar Shashanth Kumar
+
+created: 1 September 2026 (01/09/2026)
+
+last modified: 6 September 2026 (06/09/2026)
+
+description: links to apply.html
+
+*/
+
+/* changes heading color, size, and makes it bold */
+h1 {
+    color:brown;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* turns job ref number label border into blue colour and spaces it out, to make it more standout */
+#job_ref_num {
+    border: 1px solid blue;
+    border-radius:2em;
+    margin: 2em;
+}
+
+/* equal spacing between fields */
+.personal-details, .address, .contact-details {
+    margin: 15px;
+}
+
+/* equal spacing between fieldsets */
+.personal-details-main-fieldset, .address-main-fieldset {
+    margin-bottom: 15px;
+}
+
+/* spacing */
+.state-subgroup {
+    margin-left: 15px;
+}
+
+/* changes width of postcode field to match expected user input */
+#postcode {
+    display: inline-block;
+    width: 4em;
+}
+
+.skills-subgroup {
+    display: inline-block;
+    margin: 5px;
+}
+
+.end-of-form-buttons {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 2em;
+}
