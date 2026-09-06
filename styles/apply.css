@@ -1,0 +1,29 @@
+/*
+
+filename: apply.css
+
+author: Alagarsamy Chandrasekar Shashanth Kumar
+
+created: 1 September 2026 (01/09/2026)
+
+last modified: 1 September 2026 (01/09/2026)
+
+description: links to apply.html
+
+*/
+
+h1 {
+    color:brown;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#job_reference_number {
+    border: 1px solid blue;
+    border-radius:2em;
+    margin: 2em;
+}
+
+.personal-details {
+    margin-bottom: 15px;
+}

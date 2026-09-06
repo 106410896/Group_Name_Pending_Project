@@ -7,6 +7,8 @@
         <meta name="keywords" content="HTML, COS10026, Project, Apply page, Fantastic5">
         <meta name="author" content="Alagarsamy Chandrasekar Shashanth Kumar">
         <title>Apply</title>
+
+        <link rel="stylesheet" href="styles/apply.css">
     </head>
 
     <body>
@@ -15,14 +17,14 @@
 
         <br>
 
+        <!-- form created -->
         <form action="submit.php" method="post">
 
-
+            <!-- Job Reference number element-->
                 <label for="job_reference_number">Job Reference Number:</label>
                 <input type="text" id="job_reference_number" name="job_reference_number" pattern="[0-9]{6}" required>
 
                 <br>
-
 
             <!-- Personal Details container box-->
             <fieldset>
@@ -30,12 +32,35 @@
                 <legend>Personal Details</legend>
 
                 <!-- First Name Field -->
+                 <div class="personal-details">
                     <label for="first_name">First Name:</label>
-                    <input type="text" id="given_name" name="given_name" pattern="[A-Za-z\s]{1,20}" required>
+                    <input type="text" id="first_name" name="first_name" pattern="[A-Za-z\s]{6}" required>
+                 </div>
 
                 <!-- Last Name Field -->
+                 <div class="personal-details">
                     <label for="last_name">Last Name:</label>
                     <input type="text" id="last_name" name="last_name" pattern="[A-Za-z\s]{1,20}" required>
+                 </div>
+
+                <!-- Date of birth Field -->
+                 <div class="personal-details">
+                    <label for="DOB">Date of birth:</label>
+                    <input type="date" id="DOB" name="DOB" required>
+                 </div>
+
+                <!-- Radio Buttons for Gender fields -->
+                 <fieldset class="gender-subgroup">
+                    <legend>Gender</legend>
+
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <label for="female">Female</label>
+
+                 </fieldset>
+
 
             </fieldset>
             
