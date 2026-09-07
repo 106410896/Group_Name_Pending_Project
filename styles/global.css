@@ -1,0 +1,49 @@
+/*
+
+filename: global.css
+
+author: Alagarsamy Chandrasekar Shashanth Kumar
+
+created: 7 September 2026 (07/09/2026)
+
+last modified: 7 September 2026 (07/09/2026)
+
+description: links to all pages
+
+*/
+
+/*
+
+_______________________________________________________________________________________________
+
+GLOBAL STYLESHEET
+-----------------------------------------------------------------------------------------------
+
+This stylesheet is applied to every page. It contains the elements of the web page that stay
+consistent across all pages (i.e. menu navigation bars, footers, etc). If any work is done
+to such global elements, please ensure to do it and keep it here for ease of coding and
+an organised workspace.
+
+_______________________________________________________________________________________________
+
+*/
+
+/* stacks menu navigation links horizontally and removes visibility of bullet points */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+/* spaces out list items of navigation link classes, to ensure links themselves are spaced out evenly */
+.nav-links li {
+    margin-inline: 20px;
+}
+
+.navbar {
+
+    /* stacks navbar contents horizontally and spaces them out appropriately */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}

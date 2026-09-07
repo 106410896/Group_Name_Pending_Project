@@ -25,7 +25,6 @@ ________________________________________________________________________________
 
 */
 
-
 /* equal spacing between fields */
 .personal-details, .address, .contact-details {
     margin: 15px;
@@ -60,17 +59,6 @@ ________________________________________________________________________________
     margin-top: 2em;
 }
 
-/* stacks menu navigation links horizontally and removes visibility of bullet points */
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-/* spaces out list items of 'nav-link' class, to ensure links themselves are spaced out evenly */
-.nav-links li {
-    margin-left: 20px;
-}
-
 /*
 _______________________________________________________________________________________________
 
@@ -83,7 +71,4 @@ ________________________________________________________________________________
 
 */
 
-.navbar {
-    display: flex;
-    align-items: center;
-}
+body { background-color: #f1f5f9;}
