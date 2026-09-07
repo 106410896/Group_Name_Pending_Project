@@ -81,3 +81,9 @@ phase for the page had ended, the following contents now dictating core layout r
 
 _______________________________________________________________________________________________
 
+*/
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
