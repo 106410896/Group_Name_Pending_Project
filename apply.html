@@ -9,6 +9,7 @@
         <title>Apply</title>
 
         <link rel="stylesheet" href="styles/apply.css">
+        <link rel="stylesheet" href="styles/apply-layout.css">
     </head>
 
     <body>
@@ -140,7 +141,7 @@
                <!-- Phone number field -->
                <div class="contact-details">
                   <label for="phone_number">Phone Number:</label>
-                  <input type="text" id="phone_number" name="phone_number" [0-9] {8,12} required>
+                  <input type="text" id="phone_number" name="phone_number" pattern="[0-9]{8,12}" required>
                </div>
 
             </fieldset>

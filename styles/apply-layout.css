@@ -1,0 +1,83 @@
+/*
+
+filename: apply-layout.css
+
+author: Alagarsamy Chandrasekar Shashanth Kumar
+
+created: 7 September 2026 (07/09/2026)
+
+last modified: 7 September 2026 (07/09/2026)
+
+description: links to apply.html
+
+*/
+
+/* 
+
+_______________________________________________________________________________________________
+
+BASELINE LAYOUT CSS
+-----------------------------------------------------------------------------------------------
+Below are the basic initial CSS written in the midst of the development of the baseline HTML of
+the apply page, so as to keep the elements relatively clean, spaced out, and organised enough
+to be readable while coding the HTML form components.
+_______________________________________________________________________________________________
+
+*/
+
+
+/* equal spacing between fields */
+.personal-details, .address, .contact-details {
+    margin: 15px;
+}
+
+/* equal spacing between fieldsets */
+.personal-details-main-fieldset, .address-main-fieldset {
+    margin-bottom: 15px;
+}
+
+/* spacing */
+.state-subgroup {
+    margin-left: 15px;
+}
+
+/* changes width of postcode field to match expected user input */
+#postcode {
+    display: inline-block;
+    width: 4em;
+}
+
+/* stacks skills checkboxes horizontally with even spacing */
+.skills-subgroup {
+    display: inline-block;
+    margin: 5px;
+}
+
+/* stacks end-of-form buttons (i.e. submit, reset buttons) horizontally with even spacing */
+.end-of-form-buttons {
+    display: inline-block;
+    margin: 5px;
+    margin-top: 2em;
+}
+
+/* stacks menu navigation links horizontally and removes visibility of bullet points */
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+/* spaces out list items of 'nav-link' class, to ensure links themselves are spaced out evenly */
+.nav-links li {
+    margin-left: 20px;
+}
+
+/*
+_______________________________________________________________________________________________
+
+CORE LAYOUT CSS
+-----------------------------------------------------------------------------------------------
+From here on out, CSS written here below are all code written after the basic HTML development
+phase for the page had ended, the following contents now dictating core layout rules.
+
+_______________________________________________________________________________________________
+
