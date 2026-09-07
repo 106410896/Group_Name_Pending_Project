@@ -28,22 +28,69 @@ ________________________________________________________________________________
 
 */
 
+/* strips away underline and hyperlink blue color from logo text */
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* strips away underline and hyperlink blue color from nav-links */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    display: block; /* link fills entire clickable space of individual nav-link pill */
+    padding: 6px 0;
+}
+
 /* stacks menu navigation links horizontally and removes visibility of bullet points */
 .nav-links {
     display: flex;
     list-style: none;
 }
 
-/* spaces out list items of navigation link classes, to ensure links themselves are spaced out evenly */
 .nav-links li {
-    margin-inline: 20px;
+    margin-inline: 20px; /* spaces out list items of navigation link classes, to ensure links themselves are spaced out evenly */
+    width: 100px; /* sets horizontal length of each nav-link's pill-style border equally */
+    text-align: center;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
 }
 
+/* stacks navbar contents horizontally and spaces them out appropriately */
 .navbar {
-
-    /* stacks navbar contents horizontally and spaces them out appropriately */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px;
+    position: sticky;
+}
+
+/* creates black 'master-pill' container box for navigation links for the navbar */
+.navbar ul {
+    background-color: black;
+    padding: 8px;
+    border-radius: 24px;
+    gap: 10px;
+}
+
+/* wraps non-cta-button nav-links in a grey pill when cursur hovers over it */
+.nav-links li:hover:not(:has(.cta-btn)) {
+    background-color: #374151;
+}
+
+/* highlights the current page user is on */
+.nav-links li:has(.current-page:not(.cta-btn)) {
+    background-color: #4b5563;
+}
+
+/* gives CTA Button (Apply button) its unique purple background color to call user to action */
+.nav-links li:has(.cta-btn) {
+    background-color: rgb(103, 8, 103);
+}
+
+/* turns CTA button (Apply button) noticably lighter when cursor hovers over it, prompting user to click */
+.nav-links li:has(.cta-btn:hover) {
+    background-color: rgb(153, 40, 145);
 }

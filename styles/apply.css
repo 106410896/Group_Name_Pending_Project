@@ -25,9 +25,3 @@ h1 {
     border-radius:2em;
     margin: 1em;
 }
-
-/* strips away underline and hyperlink blue color from logo text */
-.logo a {
-    text-decoration: none;
-    color: inherit;
-}
