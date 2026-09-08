@@ -5,6 +5,12 @@ header
 
 }
 
+footer
+{
+    border-top: double 4px darkblue;
+    clear: both;
+}
+
 h1
 {
     line-height: 150px;
