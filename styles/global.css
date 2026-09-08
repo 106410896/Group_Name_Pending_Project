@@ -71,6 +71,7 @@ ________________________________________________________________________________
 
 /* menu bar CSS rules live here */
 header {
+
     background-color: #0f172a; /* background colour of menu bar */
 
     /* to fix menu bar on top of viewport, and ensure it follows when user scroll down or up page */
@@ -114,6 +115,7 @@ header {
 /* highlights the current page user is on */
 .nav-links li:has(.current-page:not(.cta-btn)) {
     background-color: #282c32;
+    border: 2px solid rgb(91, 88, 91);
 }
 
 /* gives CTA Button (Apply button) its unique purple background color to call user to action */
