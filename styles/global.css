@@ -28,10 +28,21 @@ ________________________________________________________________________________
 
 */
 
-/* strips away underline and hyperlink blue color from logo text */
+.logo {
+    display: flex;
+    align-items: center;
+    max-width: 150px;
+}
+
 .logo a {
-    text-decoration: none;
-    color: inherit;
+    display: block;
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* strips away underline and hyperlink blue color from nav-links */
@@ -56,6 +67,25 @@ ________________________________________________________________________________
     text-align: center;
     border-radius: 50px;
     transition: background-color 0.3s ease;
+}
+
+/* menu bar CSS rules live here */
+header {
+    background-color: #0f172a; /* background colour of menu bar */
+
+    /* to fix menu bar on top of viewport, and ensure it follows when user scroll down or up page */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.50);
+
+    /* margin rules for top, and the left and right of this element only, 
+    in order to bypass default browser margin rule of 8px for just this element,
+     without hindering any other element. */
+    margin-top: -8px;
+    margin-inline: -8px;
+
+    border-radius: 0 0 24px 24px; /* curved edges at bottom */
 }
 
 /* stacks navbar contents horizontally and spaces them out appropriately */
