@@ -1,0 +1,44 @@
+/*
+  filename: about.css
+  author: Isaac
+  description: ABOUT PAGE CSS
+*/
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+main h2 {
+  color: darkblue;  
+}
+
+section {
+  margin-top: 30px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+
+footer {
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid gray;
+}
