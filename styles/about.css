@@ -1,7 +1,7 @@
 /*
   filename: about.css
   author: Isaac
-  description: Basic styles for the About page
+  description: ABOUT PAGE CSS
 */
 
 main {
@@ -10,13 +10,11 @@ main {
 }
 
 main h2 {
-  color: darkblue;
-  border-bottom: 1px solid gray;
+  color: darkblue;  
 }
 
 section {
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 
