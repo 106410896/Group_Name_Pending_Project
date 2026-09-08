@@ -1,4 +1,16 @@
-/* Regular Tags */
+/*
+
+filename: styles.css
+
+author: Ollie Madu
+
+created: --/09/2026
+
+last modified: 9/9/2026
+
+description: CSS file specifically for the Jobs Page
+
+*/
 
 header
 {
@@ -15,7 +27,7 @@ h1
 {
     line-height: 150px;
     text-align: center;
-    height: 150px;
+    height: 100px;
 }
 
 aside
@@ -26,20 +38,27 @@ aside
 /* Class Elements */
 .column 
 {
-    border: 1px solid black;
+    border: 1px solid lightblue;
     background-color: rgb(216, 255, 242);
     border-radius: 10px;
-    font-size: small;
-    width: 30%;
+    box-shadow: 5px;
+    width: 60%; 
+    height: 100%;
     margin: 1em;
     padding: 10px;
 }
 
-.column:hover 
+.toggle_view:hover
 {
     border: 5px solid black;
     background-color: aquamarine;
-    /* border-radius: 10px;
+}
+
+.column:hover 
+{
+    /*border: 5px solid black;
+    background-color: aquamarine;
+    border-radius: 10px;
     font-size: small;
     float: left;
     width: 30%;
