@@ -30,6 +30,17 @@ h1
     padding: 10px;
 }
 
+.column:hover 
+{
+    border: 5px solid black;
+    /* border-radius: 10px;
+    font-size: small;
+    float: left;
+    width: 30%;
+    margin: 1em;
+    padding: 10px; */
+}
+
 .button {
     text-decoration: none;
     color: aliceblue;
