@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="About the Fantastic 5 development team">
   <meta name="keywords" content="Fantastic 5, team, web development">
   <meta name="author" content="Fantastic 5">
@@ -10,29 +11,31 @@
   <link rel="stylesheet" href="styles/about.css">
   
   <title>About Fantastic 5</title>
-
 </head>
 
 <body>
 
-  <header>
-    <h1>About Fantastic 5</h1>
 
+        <!-- Main Menu/Navigation bar element -->
         <nav class="navbar">
+
+         <!-- logo element (links to index page upon clicking)-->
          <div class="logo">
-            <a href="index.html"><h2>CyberShield</h2></a>
+            <a href="index.html">
+               <img src="images/cybershield-logo.png" alt="Cybershield Logo">
+            </a>
          </div>
+
+         <!-- navigation links found in menu navbar -->
          <ul class="nav-links">
-            <li><a href="about.html" class="current-page">About</a></li> <!-- Hey Isaac, it's me, Shashanth. if you are seeing this, it's not much changes. i just updated the nav-links here to the correct classes so that the menu functions as intended. if any queries persist, feel free to reach out to me bro. thanks. -->
+            <li><a href="about.html">About</a></li>
             <li><a href="jobs.html">Jobs</a></li>
-            <li><a href="apply.html" class="cta-btn">Apply</a></li>
+            <li><a href="apply.html" class="cta-btn current-page">Apply</a></li>
          </ul>
 
         </nav>
-  </header>
-
   <main>
-    <img src="images/Cybershield logo.png" alt="Fantastic 5 Team Photo" class="team-photo">
+    <h1>About Fantastic 5</h1>
     <section id="group-information">
       <h2>Group Information</h2>
 
@@ -60,12 +63,12 @@
 
       <figure>
         <img
-          src="" /* WE NEED GROUP PHOTO*/
-          
-        >
-        <figcaption>
-          Fantastic 5: Ollie, Manas, Kshitij, Isaac and Shashanth.
-        </figcaption>
+          src="images/team.jpeg" id="team-photo" alt="Fantastic 5 Team Photo">
+
+           <figcaption>
+              Fantastic 5 team members at Swinburne University.
+          </figcaption>
+
       </figure>
     </section>
 
@@ -128,7 +131,7 @@
       <article>
         <h3>Kshitij Shetty</h3>
         <blockquote lang="">
-          <p>HERE</p>
+          <p> Only the fiercest wind reveals the strongest grass</p>
         </blockquote>
         <p><strong>English translation:</strong> [Add translation]</p>
       </article>
@@ -159,38 +162,45 @@
         <thead>
           <tr>
             <th scope="col">Team Member</th>
+            <th scope="col">Student ID</th>
             <th scope="col">Fun Fact</th>
             <th scope="col">Project Role</th>
+            
           </tr>
         </thead>
 
         <tbody>
           <tr>
             <th scope="row">Ollie</th>
+            <td>10011</td>
             <td>fun fact</td>
             <td>Jobs page designer</td>
           </tr>
 
           <tr>
             <th scope="row">Manas</th>
+            <td>10012</td>
             <td>fun fact</td>
             <td>Home page and validation</td>
           </tr>
 
           <tr>
             <th scope="row">Kshitij</th>
+            <td>10013</td>
             <td>fun fact</td>
             <td>Images and referencing</td>
           </tr>
 
           <tr>
             <th scope="row">Isaac</th>
-            <td>I Like Long Walks On The Beach</td>
+            <td>10014</td>
+            <td>fun fact</td>
             <td>About page and Jira</td>
           </tr>
 
           <tr>
             <th scope="row">Shashanth</th>
+            <td>10015</td>
             <td>fun fact</td>
             <td>Application page, CSS and GitHub</td>
           </tr>
