@@ -133,3 +133,165 @@ header {
     background-color: rgb(65, 3, 65);
     border: 2px solid rgb(210, 80, 210);
 }
+/* Company Intro Section */
+.company-intro {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.company-intro h2 {
+    color: #58a6ff;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.intro-lead {
+    font-size: 1.2rem;
+    color: #c9d1d9;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 40px;
+}
+
+/* Trust Pillars (The 3 boxes) */
+.trust-pillars {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pillar {
+    flex: 1 1 300px;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.pillar:hover {
+    border-color: #58a6ff;
+    transform: translateY(-5px);
+}
+
+.pillar h3 {
+    color: #58a6ff;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.pillar p {
+    color: #8b949e;
+    font-size: 0.95rem;
+}
+/* =========================================================
+   WHY JOIN US -By Kshitij Shetty
+   ========================================================= */
+
+/* The main section container */
+.why-join-us {
+    background-color: #ffffff; /* Clean white background */
+    border-radius: 12px;
+    padding: 50px 40px;
+    text-align: center;
+    margin-top: 60px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Very subtle, professional shadow */
+}
+
+/* Heading - Pure Black */
+.why-join-us h2 {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Main Paragraph - Professional Black */
+.why-join-us .bold-text {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.8;
+    max-width: 850px;
+    margin: 0 auto 40px auto;
+}
+
+/* Highlighted words - Standard Corporate Blue (No glow) */
+.why-join-us .bold-text strong {
+    color: #1f6feb; 
+    font-weight: 700;
+}
+
+/* CTA Box - Clean White, subtle grey border */
+.cta-box {
+    background-color: #f8f9fa; /* Very light grey */
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* CTA Text - Professional Black */
+.cta-box p {
+    color: #000000;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* CTA Bold text - Standard Corporate Blue */
+.cta-box p strong {
+    color: #1f6feb;
+    font-weight: 700;
+}
+
+/* ---------- Buttons ---------- */
+
+/* Base button styles */
+.cta-box .button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none; /* No uppercase, looks cleaner */
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+/* "View Open Roles" - Solid Corporate Blue */
+.cta-box .button:first-of-type {
+    color: #ffffff;
+    background-color: #1f6feb;
+    border: none;
+}
+
+.cta-box .button:first-of-type:hover {
+    background-color: #388bfd;
+}
+
+/* "Apply" - Solid Corporate Black */
+.cta-box .button:last-of-type {
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+}
+
+.cta-box .button:last-of-type:hover {
+    background-color: #333333;
+}
+ 
