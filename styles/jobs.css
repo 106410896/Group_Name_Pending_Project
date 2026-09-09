@@ -4,7 +4,7 @@ filename: styles.css
 
 author: Ollie Madu
 
-created: --/09/2026
+created: 2/9/2026
 
 last modified: 9/9/2026
 
@@ -23,9 +23,8 @@ footer
 
 h1
 {
-    line-height: 150px;
-    text-align: center;
-    height: 100px;
+    line-height: 50px;
+    height: 25px;
 }
 
 aside
@@ -53,10 +52,20 @@ aside
     padding: 10px;
 }
 
+.auto_view
+{
+    display: flex;
+}
+
+.auto_view li
+{
+    margin-inline: 20px;
+}
+
 .toggle_view
 {
     display: none;
-}
+} 
 
 
 .column:hover
