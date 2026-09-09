@@ -257,7 +257,7 @@ through all the pages. Thanks.
 }
 
 /* CTA Box - Clean White, subtle grey border */
-.cta-box {
+.power-box {
     background-color: #f8f9fa; /* Very light grey */
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -267,7 +267,7 @@ through all the pages. Thanks.
 }
 
 /* CTA Text - Professional Black */
-.cta-box p {
+.power-box {
     color: #000000;
     font-size: 1.1rem;
     font-weight: 600;
@@ -276,7 +276,7 @@ through all the pages. Thanks.
 }
 
 /* CTA Bold text - Standard Corporate Blue */
-.cta-box p strong {
+.power-box p strong {
     color: #1f6feb;
     font-weight: 700;
 }
@@ -284,7 +284,7 @@ through all the pages. Thanks.
 /* ---------- Buttons ---------- */
 
 /* Base button styles */
-.cta-box .button {
+.power-box .button {
     display: inline-block;
     margin: 0 10px;
     padding: 12px 25px;
@@ -297,24 +297,24 @@ through all the pages. Thanks.
 }
 
 /* "View Open Roles" - Solid Corporate Blue */
-.cta-box .button:first-of-type {
+.power-box .button:first-of-type {
     color: #ffffff;
     background-color: #1f6feb;
     border: none;
 }
 
-.cta-box .button:first-of-type:hover {
+.power-box .button:first-of-type:hover {
     background-color: #388bfd;
 }
 
 /* "Apply" - Solid Corporate Black */
-.cta-box .button:last-of-type {
+.power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
     border: none;
 }
 
-.cta-box .button:last-of-type:hover {
+.power-box .button:last-of-type:hover {
     background-color: #333333;
 }
  
