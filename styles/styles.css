@@ -28,6 +28,9 @@ ________________________________________________________________________________
 
 */
 
+body
+{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
 .logo {
     display: flex;
     align-items: center;
@@ -138,8 +141,21 @@ header {
 /* highlights when user is currently on the 'Apply' page using extra border styling, as 'Apply' is a CTA button */
 .nav-links li:has(.cta-btn.current-page) {
     background-color: rgb(65, 3, 65);
-    border: 2px solid rgb(210, 80, 210);
+    border: 1px solid rgb(210, 80, 210);
 }
+
+
+
+/* 
+
+Hi Kshitij, if you are seeing this, please remove and copy and paste the code (your code) below into a seperate 'index.css' file for the index page.
+This is the global stylesheet and is to only be used for elements of the website that will be consistent
+through all the pages. Thanks.
+
+*/
+
+
+
 /* Company Intro Section */
 .company-intro {
     background-color: #161b22;
@@ -241,7 +257,7 @@ header {
 }
 
 /* CTA Box - Clean White, subtle grey border */
-.cta-box {
+.power-box {
     background-color: #f8f9fa; /* Very light grey */
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -251,7 +267,7 @@ header {
 }
 
 /* CTA Text - Professional Black */
-.cta-box p {
+.power-box {
     color: #000000;
     font-size: 1.1rem;
     font-weight: 600;
@@ -260,7 +276,7 @@ header {
 }
 
 /* CTA Bold text - Standard Corporate Blue */
-.cta-box p strong {
+.power-box p strong {
     color: #1f6feb;
     font-weight: 700;
 }
@@ -268,7 +284,7 @@ header {
 /* ---------- Buttons ---------- */
 
 /* Base button styles */
-.cta-box .button {
+.power-box .button {
     display: inline-block;
     margin: 0 10px;
     padding: 12px 25px;
@@ -281,24 +297,24 @@ header {
 }
 
 /* "View Open Roles" - Solid Corporate Blue */
-.cta-box .button:first-of-type {
+.power-box .button:first-of-type {
     color: #ffffff;
     background-color: #1f6feb;
     border: none;
 }
 
-.cta-box .button:first-of-type:hover {
+.power-box .button:first-of-type:hover {
     background-color: #388bfd;
 }
 
 /* "Apply" - Solid Corporate Black */
-.cta-box .button:last-of-type {
+.power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
     border: none;
 }
 
-.cta-box .button:last-of-type:hover {
+.power-box .button:last-of-type:hover {
     background-color: #333333;
 }
  
