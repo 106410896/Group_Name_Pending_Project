@@ -17,6 +17,12 @@ section {
   margin-top: 30px;
 }
 
+#team-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
 
 table {
   width: 100%;
@@ -34,7 +40,6 @@ td {
   padding: 8px;
   text-align: left;
 }
-
 
 footer {
   margin-top: 30px;
