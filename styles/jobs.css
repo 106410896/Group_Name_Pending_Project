@@ -6,7 +6,7 @@ author: Ollie Madu
 
 created: 2/9/2026
 
-last modified: 9/9/2026
+last modified: 10/9/2026
 
 description: CSS file specifically for the Jobs Page
 
@@ -15,11 +15,6 @@ description: CSS file specifically for the Jobs Page
 body
 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-footer
-{
-    border-top: double 4px darkblue;
-    clear: both;
-}
 
 h1
 {
@@ -29,21 +24,25 @@ h1
 
 aside
 {
-    border: 4px inset rgb(59, 0, 170);
+    border: 6px inset rgb(152, 167, 255);
     font-size: larger;
     background-color: solid white;
-    box-shadow: -5px 5px 7px #aaaaaa;
     border-radius: 14px;
+
     width: 30%;
     margin: 1em;
     padding: 1em;
     float: right;
+
+    position: fixed;
+    top: 110px;
+    right: 10px;
 }
 
 /* Class Elements */
 .column 
 {
-    border: 2.5px solid lightblue;
+    border: 5px solid lightblue;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 60%; 
@@ -59,6 +58,8 @@ aside
 
 .auto_view li
 {
+    color: #4a4a4a;
+    font-size: large;
     margin-inline: 20px;
 }
 
@@ -76,11 +77,22 @@ aside
     }
 }
 
-.button {
+.button 
+{
     text-decoration: none;
     color: aliceblue;
     box-shadow: 10px #aaaaaa;
     background-color: rgb(118, 151, 171);
+    padding: 8px;
+    border-radius: 24px;
+    gap: 10px;
+}
+
+.button:hover
+{
+    color: rgb(240, 240, 255);
+    box-shadow: -5px 5px 10px #aaaaaa;
+    background-color: rgb(25, 0, 255);
     padding: 8px;
     border-radius: 24px;
     gap: 10px;
