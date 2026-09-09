@@ -1,49 +1,136 @@
 /*
   filename: about.css
   author: Isaac
-  description: ABOUT PAGE CSS
+  description: Styles for the About page
 */
 
 main {
   width: 80%;
-  margin: auto;
+  max-width: 1000px;
+  margin: 30px auto;
+  line-height: 1.5;
+}
+
+main h1 {
+  color: #17365d;
+  text-align: center;
 }
 
 main h2 {
-  color: darkblue;  
+  margin-top: 0;
+  color: #17365d;
 }
 
-section {
-  margin-top: 30px;
+main section {
+  margin-top: 35px;
+}
+
+/* Group information */
+#group-information > ul > li {
+  margin-bottom: 12px;
+  font-weight: bold;
+}
+
+#group-information ul ul li {
+  font-weight: normal;
+}
+
+/* Group photo */
+#group-photo figure {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #777777;
+  text-align: center;
 }
 
 #team-photo {
+  display: block;
   width: 100%;
   height: auto;
-  display: block;
-  margin: auto;
 }
 
-table {
+#group-photo figcaption {
+  margin-top: 10px;
+  color: #444444;
+  font-style: italic;
+}
+
+/* Contributions */
+#contributions dt {
+  margin-top: 15px;
+  color: #17365d;
+  font-weight: bold;
+}
+
+#contributions dd {
+  margin-top: 4px;
+  margin-left: 25px;
+}
+
+/* Member quotes */
+#member-quotes article {
+  padding: 10px 0;
+  
+}
+
+#member-quotes h3 {
+  color: #17365d;
+}
+
+#member-quotes blockquote {
+  margin: 8px 20px;
+  font-style: italic;
+}
+
+/* Team table */
+#fun-facts {
+  overflow-x: auto;
+}
+
+#fun-facts table {
   width: 100%;
+  min-width: 650px;
   border-collapse: collapse;
 }
 
-table,
-th,
-td {
-  border: 1px solid black;
+#fun-facts caption {
+  font-weight: bold;
 }
 
-th,
-td {
-  padding: 8px;
+#fun-facts th,
+#fun-facts td {
+  padding: 10px;
+  border: 1px solid #555555;
   text-align: left;
 }
 
+#fun-facts thead {
+  color: #ffffff;
+  background-color: #17365d;
+}
+
+/* Student ID column */
+
+#fun-facts tbody td:nth-child(2) {
+  color: #8b1a1a;
+  font-weight: bold;
+}
+
+#fun-facts tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+/* hover effect */
+#fun-facts tbody tr:hover {
+  background-color: #d9e8f5;
+}
+
+/* Footer */
+
 footer {
-  margin-top: 30px;
-  padding: 10px;
+  margin-top: 40px;
+  padding: 15px;
   text-align: center;
-  border-top: 1px solid gray;
+  border-top: 1px solid #777777;
 }
