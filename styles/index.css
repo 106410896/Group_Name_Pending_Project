@@ -9,7 +9,7 @@ created: 7 September 2026
 last modified: 10 September 2026 
 
 
-*/
+*/ author Manas Alwani
 body {
     margin: 0;
     padding: 0;
@@ -145,7 +145,7 @@ author Kshtij Shetty
 
 .intro-lead {
     font-size: 1.2rem;
-    color: #c9d1d9;
+    color: #000000;
     text-align: center;
     line-height: 1.8;
     margin-bottom: 40px;
