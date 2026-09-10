@@ -118,6 +118,11 @@ tbody tr:nth-child(even) {
 tr:hover {
     background-color: #e6eef7;
 }
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
 author Kshtij Shetty
 .company-intro {
