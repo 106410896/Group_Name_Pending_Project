@@ -6,7 +6,7 @@ author: Manas Alwani
 
 created: 7 September 2026 
 
-last modified: 0 September 2026 
+last modified: 9 September 2026 
 
 
 */
@@ -50,12 +50,12 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 0;
 }
 
 nav a {
