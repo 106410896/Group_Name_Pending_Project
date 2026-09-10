@@ -31,7 +31,7 @@ ________________________________________________________________________________
 }
 
 /* equal spacing between fieldsets */
-.personal-details-main-fieldset, .address-main-fieldset {
+.personal-details-main-fieldset, .address-main-fieldset, .contact-details-main-fieldset {
     margin-bottom: 15px;
 }
 
@@ -71,4 +71,11 @@ ________________________________________________________________________________
 
 */
 
+/* main page background colour */
 body { background-color: #f1f5f9;}
+
+form {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
