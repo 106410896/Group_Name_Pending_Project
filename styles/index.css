@@ -113,20 +113,3 @@ th {
 tr:nth-child(even) {
     background-color: #f0f4f8;
 }
-
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #003366;
-    color: white;
-    margin-top: 40px;
-}
-
-footer a {
-    color: #66ccff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
