@@ -6,7 +6,7 @@ author: Alagarsamy Chandrasekar Shashanth Kumar
 
 created: 7 September 2026 (07/09/2026)
 
-last modified: 7 September 2026 (07/09/2026)
+last modified: 10 September 2026 (10/09/2026)
 
 description: links to all pages
 
@@ -30,6 +30,23 @@ ________________________________________________________________________________
 
 body
 {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
 .logo {
     display: flex;
@@ -141,8 +158,21 @@ header {
 /* highlights when user is currently on the 'Apply' page using extra border styling, as 'Apply' is a CTA button */
 .nav-links li:has(.cta-btn.current-page) {
     background-color: rgb(65, 3, 65);
-    border: 2px solid rgb(210, 80, 210);
+    border: 1px solid rgb(210, 80, 210);
 }
+
+
+
+/* 
+
+Hi Kshitij, if you are seeing this, please remove and copy and paste the code (your code) below into a seperate 'index.css' file for the index page.
+This is the global stylesheet and is to only be used for elements of the website that will be consistent
+through all the pages. Thanks.
+
+*/
+
+
+
 /* Company Intro Section */
 .company-intro {
     background-color: #161b22;
