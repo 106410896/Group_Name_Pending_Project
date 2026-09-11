@@ -2,7 +2,11 @@
 
 filename: index.css
 
+<<<<<<< HEAD
 author: Manas Alwani AND Kshitij Shetty
+=======
+author: Manas Alwani and Kshitij Shetty
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 
 created: 7 September 2026 
 
@@ -30,6 +34,7 @@ header img {
 }
 
 header h1 {
+    text-align: center;
     margin: 10px 0 5px;
     font-size: 2.2rem;
 }
@@ -123,6 +128,28 @@ tr:nth-child(even) {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
+<<<<<<< HEAD
+=======
+tr:hover {
+    background-color: #e6eef7;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+author Kshtij Shetty
+.company-intro {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .company-intro h2 {
     color: #58a6ff;
     font-size: 2.5rem;
@@ -179,15 +206,26 @@ tr:nth-child(even) {
 
 /* The main section container */
 .why-join-us {
+<<<<<<< HEAD
     background-color: #ffffff; 
+=======
+    background-color: #ffffff; /* Clean white background */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
     border-radius: 12px;
     padding: 50px 40px;
     text-align: center;
     margin-top: 60px;
+<<<<<<< HEAD
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
 }
 
 /* Heading  */
+=======
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Very subtle, professional shadow */
+}
+
+/* Heading */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .why-join-us h2 {
     color: #000000;
     font-size: 2rem;
@@ -197,6 +235,10 @@ tr:nth-child(even) {
     letter-spacing: 1px;
 }
 
+<<<<<<< HEAD
+=======
+/* Main Paragraph - Professional Black */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .why-join-us .bold-text {
     color: #000000;
     font-size: 1.1rem;
@@ -206,15 +248,25 @@ tr:nth-child(even) {
     margin: 0 auto 40px auto;
 }
 
+<<<<<<< HEAD
 /* Highlighted words */
+=======
+/* Highlighted words ) */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .why-join-us .bold-text strong {
     color: #1f6feb; 
     font-weight: 700;
 }
 
+<<<<<<< HEAD
 /* power-box Box  */
 .power-box {
     background-color: #f8f9fa; 
+=======
+/* Power-box */
+.power-box {
+    background-color: #f8f9fa; /* light grey */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 30px;
@@ -222,7 +274,11 @@ tr:nth-child(even) {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* power-box text */
+=======
+/* Power-boxText - Black */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .power-box {
     color: #000000;
     font-size: 1.1rem;
@@ -231,7 +287,11 @@ tr:nth-child(even) {
     line-height: 1.6;
 }
 
+<<<<<<< HEAD
 /* Power-BOX BOLD TEXT */
+=======
+/* Power-Box text - Blue */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .power-box p strong {
     color: #1f6feb;
     font-weight: 700;
@@ -263,7 +323,11 @@ tr:nth-child(even) {
     background-color: #388bfd;
 }
 
+<<<<<<< HEAD
 /* "Apply" */
+=======
+/* "Apply" - */
+>>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
