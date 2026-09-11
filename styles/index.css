@@ -30,23 +30,24 @@ body {
 }
 
 .brand img {
-    margin-bottom: 10px;
-    max-width: 150px;
+    margin-bottom: 300px;
+    max-width: 200px;
     height: auto;
     margin-bottom: 10px;
 
     transform: scale(3);
     transform-origin: left center;
+    margin-bottom: 20px;
 }
 
 .brand h1 {
     text-align: center;
     margin: 10px 0;
-    font-size: 2.2rem;         
+    font-size: 5rem;         
 }
 
 .brand p {
-    font-size: 1.1rem;
+    font-size: 2rem;
     opacity: 0.9;
     margin: 0;
 }
@@ -140,15 +141,15 @@ tr:hover {
     margin-bottom: 40px;
 }
 
-/* Trust Pillars (The 3 boxes) */
-.trust-pillars {
+/* Trust Boxes (Info Boxes) */
+.trust-box {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.pillar {
+.box {
     flex: 1 1 300px;
     background-color: #0d1117;
     border: 1px solid #30363d;
@@ -158,33 +159,34 @@ tr:hover {
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.pillar:hover {
+.box:hover {
     border-color: #58a6ff;
     transform: translateY(-5px);
 }
 
-.pillar h3 {
+.box h3 {
     color: #58a6ff;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
 
-.pillar p {
+.box p {
     color: #8b949e;
     font-size: 0.95rem;
-}
-/* =========================================================
-   WHY JOIN US -By Kshitij Shetty
-   ========================================================= */
-
-/* The main section container */
+} 
+  /* WHY JOIN US -By Kshitij Shetty */
 .why-join-us {
-    background-color: #ffffff; /* Clean white background */
-    border-radius: 12px;
+
+    background-color: #ffffff; 
+    background-color: #ffffff; /* white bg */
+     border-radius: 12px;
     padding: 50px 40px;
     text-align: center;
     margin-top: 60px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Very subtle, professional shadow */
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* shadow */
 }
 
 /* Heading */
@@ -197,7 +199,7 @@ tr:hover {
     letter-spacing: 1px;
 }
 
-/* Main Paragraph - Professional Black */
+/* Main Paragraph -Blk */
 .why-join-us .bold-text {
     color: #000000;
     font-size: 1.1rem;
@@ -207,23 +209,23 @@ tr:hover {
     margin: 0 auto 40px auto;
 }
 
-/* Highlighted words ) */
+/* Highlighted Words ) */
+
 .why-join-us .bold-text strong {
     color: #1f6feb; 
     font-weight: 700;
 }
 
-/* Power-box */
+/* Power-box bg color*/
 .power-box {
-    background-color: #f8f9fa; /* light grey */
+    background-color: #f8f9fa; 
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 30px;
     max-width: 700px;
     margin: 0 auto;
 }
-
-/* Power-boxText - Black */
+/* Power-boxText - */
 .power-box {
     color: #000000;
     font-size: 1.1rem;
@@ -232,7 +234,7 @@ tr:hover {
     line-height: 1.6;
 }
 
-/* Power-Box text - Blue */
+/* power box text */
 .power-box p strong {
     color: #1f6feb;
     font-weight: 700;
@@ -247,13 +249,13 @@ tr:hover {
     padding: 12px 25px;
     font-size: 1rem;
     font-weight: 600;
-    text-transform: none; /* No uppercase, looks cleaner */
+    text-transform: none;
     border-radius: 6px;
     text-decoration: none;
     transition: background-color 0.2s ease;
 }
 
-/* "View Open Roles"  */
+/* "View Open Roles" */
 .power-box .button:first-of-type {
     color: #ffffff;
     background-color: #1f6feb;
@@ -264,7 +266,8 @@ tr:hover {
     background-color: #388bfd;
 }
 
-/* "Apply" - */
+/* "Apply" */
+
 .power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
