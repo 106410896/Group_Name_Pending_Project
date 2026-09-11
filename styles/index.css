@@ -6,11 +6,12 @@ author: Manas Alwani and Kshitij Shetty
 
 created: 7 September 2026 
 
-last modified: 10 September 2026 
+last modified: 9 September 2026 
 
 
-*/ author Manas Alwani
+/* author: Manas Alwani */
 body {
+  
     margin: 0;
     padding: 0;
     background-color: #f4f7fa;
@@ -25,23 +26,26 @@ body {
     background: linear-gradient(to bottom right, #003366, #005599);
     
     color: white;
+    position: static;          
 }
 
 .brand img {
     margin-bottom: 10px;
     max-width: 150px;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .brand h1 {
     text-align: center;
-    margin: 10px 0 5px;
-    font-size: 2.2rem;
+    margin: 10px 0;
+    font-size: 2.2rem;         
 }
 
 .brand p {
     font-size: 1.1rem;
     opacity: 0.9;
+    margin: 0;
 }
 
 main {
@@ -59,6 +63,7 @@ h2 {
     border-left: 5px solid #005599;
     padding-left: 10px;
 }
+
 
 table {
     width: 100%;
@@ -83,8 +88,17 @@ th {
     color: white;
 }
 
-tbody tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #f0f4f8;
+}
+/* Company Intro Section */
+.company-intro {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 40px;
+    margin-top: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 tr:hover {
@@ -96,7 +110,7 @@ tr:hover {
     gap: 15px;
 }
 
-author Kshtij Shetty
+/* author: Kshitij Shetty */
 .company-intro {
     background-color: #161b22;
     border: 1px solid #30363d;
@@ -117,7 +131,7 @@ author Kshtij Shetty
 
 .intro-lead {
     font-size: 1.2rem;
-    color: #000000;
+    color: #58a6ff;;
     text-align: center;
     line-height: 1.8;
     margin-bottom: 40px;
