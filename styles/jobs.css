@@ -45,25 +45,27 @@ aside
     border: 5px solid lightblue;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 60%; 
+
+    min-width: 30em;
+    max-width: 55em; 
     height: 100%;
     margin: 1em;
     padding: 10px;
 }
 
-.auto_view
+.auto-view
 {
     display: flex;
 }
 
-.auto_view li
+.auto-view li
 {
     color: #4a4a4a;
     font-size: large;
     margin-inline: 20px;
 }
 
-.toggle_view
+.toggle-view
 {
     display: none;
 } 
@@ -71,7 +73,7 @@ aside
 
 .column:hover
 {
-    .toggle_view
+    .toggle-view
     {
         display: contents;
     }
