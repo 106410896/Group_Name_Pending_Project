@@ -137,15 +137,15 @@ tr:hover {
     margin-bottom: 40px;
 }
 
-/* Trust Pillars (The 3 boxes) */
-.trust-pillars {
+/* Trust Boxes (Info Boxes) */
+.trust-box {
     display: flex;
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.pillar {
+.box {
     flex: 1 1 300px;
     background-color: #0d1117;
     border: 1px solid #30363d;
@@ -155,18 +155,18 @@ tr:hover {
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
-.pillar:hover {
+.box:hover {
     border-color: #58a6ff;
     transform: translateY(-5px);
 }
 
-.pillar h3 {
+.box h3 {
     color: #58a6ff;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
 
-.pillar p {
+.box p {
     color: #8b949e;
     font-size: 0.95rem;
 } 
