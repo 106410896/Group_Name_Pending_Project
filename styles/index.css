@@ -128,8 +128,6 @@ tr:nth-child(even) {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-<<<<<<< HEAD
-=======
 tr:hover {
     background-color: #e6eef7;
 }
@@ -149,7 +147,6 @@ author Kshtij Shetty
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .company-intro h2 {
     color: #58a6ff;
     font-size: 2.5rem;
@@ -204,28 +201,16 @@ author Kshtij Shetty
    WHY JOIN US -By Kshitij Shetty
    ========================================================= */
 
-/* The main section container */
 .why-join-us {
-<<<<<<< HEAD
     background-color: #ffffff; 
-=======
-    background-color: #ffffff; /* Clean white background */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
     border-radius: 12px;
     padding: 50px 40px;
     text-align: center;
     margin-top: 60px;
-<<<<<<< HEAD
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
 }
 
-/* Heading  */
-=======
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Very subtle, professional shadow */
-}
-
 /* Heading */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .why-join-us h2 {
     color: #000000;
     font-size: 2rem;
@@ -235,10 +220,7 @@ author Kshtij Shetty
     letter-spacing: 1px;
 }
 
-<<<<<<< HEAD
-=======
 /* Main Paragraph - Professional Black */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
 .why-join-us .bold-text {
     color: #000000;
     font-size: 1.1rem;
@@ -248,25 +230,15 @@ author Kshtij Shetty
     margin: 0 auto 40px auto;
 }
 
-<<<<<<< HEAD
-/* Highlighted words */
-=======
-/* Highlighted words ) */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
+/
 .why-join-us .bold-text strong {
     color: #1f6feb; 
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-/* power-box Box  */
-.power-box {
-    background-color: #f8f9fa; 
-=======
 /* Power-box */
 .power-box {
     background-color: #f8f9fa; /* light grey */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 30px;
@@ -274,11 +246,7 @@ author Kshtij Shetty
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-/* power-box text */
-=======
-/* Power-boxText - Black */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
+/* Power-boxText - */
 .power-box {
     color: #000000;
     font-size: 1.1rem;
@@ -287,11 +255,8 @@ author Kshtij Shetty
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
-/* Power-BOX BOLD TEXT */
-=======
-/* Power-Box text - Blue */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
+
+/* Power-BOX BOLD TEXT */ 
 .power-box p strong {
     color: #1f6feb;
     font-weight: 700;
@@ -306,7 +271,7 @@ author Kshtij Shetty
     padding: 12px 25px;
     font-size: 1rem;
     font-weight: 600;
-    text-transform: none; /* No uppercase, looks cleaner */
+    text-transform: none;
     border-radius: 6px;
     text-decoration: none;
     transition: background-color 0.2s ease;
@@ -323,11 +288,8 @@ author Kshtij Shetty
     background-color: #388bfd;
 }
 
-<<<<<<< HEAD
-/* "Apply" */
-=======
 /* "Apply" - */
->>>>>>> 698934ef407f787ff7a9aa621eb0894c6129ce15
+
 .power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
