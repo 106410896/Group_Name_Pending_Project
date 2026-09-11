@@ -171,22 +171,18 @@ tr:hover {
     font-size: 0.95rem;
 } 
   /* WHY JOIN US -By Kshitij Shetty */
-
 .why-join-us {
-<<<<<<< HEAD
+
     background-color: #ffffff; 
-=======
     background-color: #ffffff; /* white bg */
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
-    border-radius: 12px;
+     border-radius: 12px;
     padding: 50px 40px;
     text-align: center;
     margin-top: 60px;
-<<<<<<< HEAD
+
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
-=======
+
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* shadow */
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
 }
 
 /* Heading */
