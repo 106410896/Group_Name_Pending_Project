@@ -86,15 +86,24 @@ input[type="checkbox"]
     cursor: pointer;
 }
 
-/* CSS for submit CTA button */
-input[type="submit"] {
+/*
+_______________________________________________________________________________________________
+
+CSS for End-Of-Form Buttons
+-----------------------------------------------------------------------------------------------
+The following is CSS written for the end of form buttons 'submit' and 'reset'.
+
+_______________________________________________________________________________________________
+
+*/
+
+/* common consistent CSS styling for end of form buttons */
+.end-of-form-buttons input[type="submit"], input[type="reset"] {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: -0.2px;
     padding: 14px 32px;
 
-    background-color: #2ecc71;
-    color: #ffffff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -102,13 +111,83 @@ input[type="submit"] {
     transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
                 background-color 0.2 ease;
                 box-shadow: 0.2 ease;
-
 }
 
-/* responsive CSS for when hovering over CSS button */
-input[type="submit"]:hover {
+/* CSS for submit CTA button */
+.end-of-form-buttons input[type="submit"] {
+    background-color: #2ecc71;
+    color: #ffffff;
+}
+
+/* CSS for reset button */
+.end-of-form-buttons input[type="reset"] {
+    background-color: transparent;
+    color: #7f8c8d;
+    border: 2px solid #bdc3c7;
+    flex: 1;
+}
+
+/* responsive CSS for when hovering over submit button */
+.end-of-form-buttons input[type="submit"]:hover {
     background-color: #27ae60;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(46, 204, 113, 0.3);
     transition: 0.4s ease;
+}
+
+/* responsive CSS for when hovering over reset button */
+.end-of-form-buttons input[type="reset"]:hover {
+    background-color: #f8f9fa;
+    color: #c0392b;
+    border-color: #c0392b;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(46, 204, 113, 0.3);
+    transition: 0.4s ease;
+}
+
+/* 
+_______________________________________________________________________________________________
+
+*/
+
+/* CSS for other skills textare */
+textarea {
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    padding: 16px;
+
+    /* typography */
+    font-family: inherit;
+    font-size: 0.95rem;
+    color: #2c3e50;
+    line-height: 1.6;
+
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    
+    /* restricts stretching of textarea to vertical only */
+    resize: vertical;
+}
+
+/* CSS for when hovering over textarea */
+textarea:hover {
+    border-color: #cbd5e1;
+    background-color: #ffffff;
+}
+
+/* glowing highlight for textarea that is active when user has selected and is typing on textbox (not only hovering) */
+textarea:focus {
+    outline: none;
+    border-color: #4a90e2;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(74, 144, 226, 0.15), 
+                inset 0 2px 4px rgba(0, 0, 0, 0.02);
+}
+
+/* bold custom styled placeholder for textarea */
+textarea::placeholder {
+    color: #94a3b8;
+    font-weight: bold;
+    opacity: 0.85;
 }

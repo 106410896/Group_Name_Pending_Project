@@ -80,9 +80,25 @@ form {
     margin: 0 auto;
 }
 
-input[type="submit"]
+.end-of-form-buttons
 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+}
+
+/* spacing */
+.personal-details-main-fieldset {
+    margin-top: 25px;
+}
+
+/* spacing */
+.other-skills-subgroup {
+    margin-top: 25px;
+}
+
+/* repositioning of textarea label */
+.other-skills-subgroup label {
+    display: block;
+    margin-bottom: 8px;
 }
