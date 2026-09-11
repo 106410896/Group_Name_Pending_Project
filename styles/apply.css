@@ -20,7 +20,7 @@ h1 {
 }
 
 /* turns job ref number label border into blue colour and spaces it out, to make it more standout */
-#job_ref_num {
+#job-ref-num {
     border: 1px solid blue;
     border-radius:2em;
     margin: 1em;
