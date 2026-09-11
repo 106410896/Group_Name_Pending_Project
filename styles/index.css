@@ -9,7 +9,7 @@ created: 7 September 2026
 last modified: 9 September 2026 
 
 
-*/ author Manas Alwani
+/* author: Manas Alwani */
 body {
   
     margin: 0;
@@ -20,28 +20,32 @@ body {
 }
 header {
     text-align: left;
-    padding: 30px 20px;
+    padding: 25px 25px;        
     background: linear-gradient(to bottom right, #003366, #005599);
     color: white;
-      position: static;
+    position: static;          
 }
 
+
 header img {
+    max-width: 120px;           
+    height: auto;
     margin-bottom: 10px;
 }
 
+
 header h1 {
     text-align: center;
-    margin: 10px 0 5px;
-    font-size: 2.2rem;
+    margin: 10px 0;
+    font-size: 2.2rem;         
 }
 
+/* Slogan */
 header p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;         /* smaller slogan */
     opacity: 0.9;
+    margin: 0;
 }
-
-
 
 nav {
     background-color: #003366;
@@ -134,7 +138,7 @@ tr:hover {
     gap: 15px;
 }
 
-author Kshtij Shetty
+/* author: Kshitij Shetty */
 .company-intro {
     background-color: #161b22;
     border: 1px solid #30363d;
