@@ -65,7 +65,7 @@ footer a:hover {
     height: auto;
     display: block;
     
-    transform: scale(1.25); /* scales image by 25% without tampering menu bar size */
+    transform: scale(3); /* scales image by 25% without tampering menu bar size */
     transform-origin: left center; /* keeps locked left to avoid tampering with padding */
 }
 
@@ -97,7 +97,7 @@ footer a:hover {
 /* menu bar CSS rules live here */
 header {
 
-    background-color: #0f172a; /* background colour of menu bar */
+    background-color: #7190d7; /* background colour of menu bar */
 
     /* to fix menu bar on top of viewport, and ensure it follows when user scroll down or up page */
     position: sticky;
@@ -125,7 +125,7 @@ header {
 
 /* creates black 'master-pill' container box for navigation links for the navbar */
 .navbar ul {
-    background-color: #020617;
+    background-color: #0206176e;
     padding: 6px 12px;
     border-radius: 50px;
     display: flex;
