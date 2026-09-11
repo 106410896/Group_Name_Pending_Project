@@ -11,6 +11,17 @@
         <link rel="stylesheet" href="styles/styles.css">
         <link rel="stylesheet" href="styles/apply.css">
         <link rel="stylesheet" href="styles/apply-layout.css">
+
+        <!-- Embedded CSS example -->
+        <style>
+            main h1 {
+                text-align: center;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+            }
+        </style>
+
     </head>
 
     <body>
@@ -41,16 +52,18 @@
       <!-- 'main' is a semantic tag that tells the browser where all the page-specific unique content lives. -->
       <main>
 
-         <p style="margin-block: 70px;"></p>
-         <h1 style="text-align: center;"> Apply </h1>
-         <p style="margin-block: 70px;"></p>
+         <h1>Apply</h1>
 
         <!-- form created -->
         <form action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
 
             <!-- Job Reference number element-->
                 <label for="job-ref-num">Job Reference Number:</label>
-                <input type="text" id="job-ref-num" name="job-ref-num" pattern="[0-9]{6}" required>
+                <input type="text" id="job-ref-num" name="job-ref-num" pattern="[0-9]{6}" required aria-describedby="job-ref-hint" aria-required="true">
+
+                <!-- In-Line CSS example -->
+
+                <span id="job-ref-hint" style="display: block; font-size: 0.85em; color: #555555; margin-top: 5px;">Must be exactly 6 digits (e.g. 123456).</span>
 
                 <br>
 
@@ -62,29 +75,29 @@
                 <!-- First Name Field -->
                  <div class="personal-details">
                     <label for="first-name">First Name:</label>
-                    <input type="text" id="first-name" name="first-name" pattern="[A-Za-z\s]{1,20}" required>
+                    <input type="text" id="first-name" name="first-name" pattern="[A-Za-z\s]{1,20}" required aria-required="true">
                  </div>
 
                 <!-- Last Name Field -->
                  <div class="personal-details">
                     <label for="last-name">Last Name:</label>
-                    <input type="text" id="last-name" name="last-name" pattern="[A-Za-z\s]{1,20}" required>
+                    <input type="text" id="last-name" name="last-name" pattern="[A-Za-z\s]{1,20}" required aria-required="true">
                  </div>
 
                 <!-- Date of birth Field -->
                  <div class="personal-details">
                     <label for="DOB">Date of birth:</label>
-                    <input type="date" id="DOB" name="DOB" required>
+                    <input type="date" id="DOB" name="DOB" required aria-required="true">
                  </div>
 
                 <!-- Radio Buttons for Gender fields -->
-                 <fieldset class="gender-subgroup">
-                    <legend>Gender</legend>
+                 <fieldset class="gender-subgroup" aria-labelledby="gender-legend">
+                    <legend id="gender-legend">Gender</legend>
 
-                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <input type="radio" id="male" name="gender" value="Male" required aria-required="true">
                     <label for="male">Male</label>
 
-                    <input type="radio" id="female" name="gender" value="Female" required>
+                    <input type="radio" id="female" name="gender" value="Female" required aria-required="true">
                     <label for="female">Female</label>
 
                  </fieldset>
@@ -99,19 +112,19 @@
                 <!-- Street Address Field -->
                  <div class="address">
                     <label for="street-address">Street Address:</label>
-                    <input type="text" id="street-address" name="street-address" pattern="[A-Za-z0-9\s]{1,40}" required>
+                    <input type="text" id="street-address" name="street-address" pattern="[A-Za-z0-9\s]{1,40}" required aria-required="true">
                  </div>
 
                 <!-- Address Field -->
                  <div class="address">
                     <label for="suburb-town">Suburb/Town:</label>
-                    <input type="text" id="suburb-town" name="suburb-town" pattern="[A-Za-z0-9\s]{1,40}" required>
+                    <input type="text" id="suburb-town" name="suburb-town" pattern="[A-Za-z0-9\s]{1,40}" required aria-required="true">
                  </div>
 
                 <!-- Dropdown list for state selection-->
                  <div class="state-subgroup">
                     <label for="state">State</label>
-                    <select id="state" name="state" required>
+                    <select id="state" name="state" required aria-required="true">
 
                         <option value="">Please select</option>
                         <option value="VIC">VIC</option>
@@ -129,7 +142,7 @@
                 <!-- Postcode field -->
                  <div class="address">
                     <label for="postcode">Postcode</label>
-                    <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required>
+                    <input type="text" id="postcode" name="postcode" pattern="[0-9]{4}" required aria-required="true">
                  </div>
 
             </fieldset>
@@ -143,22 +156,22 @@
                <!-- Email field -->
                <div class="contact-details">
                   <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required>
+                  <input type="email" id="email" name="email" required aria-required="true">
                </div>
 
                <!-- Phone number field -->
                <div class="contact-details">
                   <label for="phone-number">Phone Number:</label>
-                  <input type="text" id="phone-number" name="phone-number" pattern="[0-9]{8,12}" required>
+                  <input type="text" id="phone-number" name="phone-number" pattern="[0-9]{8,12}" required aria-required="true">
                </div>
 
             </fieldset>
             
 
             <!-- Skills And Qualifications fieldset -->
-            <fieldset class="skills-and-qualifications-main-fieldset">
+            <fieldset class="skills-and-qualifications-main-fieldset" role="group" aria-labelledby="skills-legend" >
 
-               <legend>Skills and Qualifications</legend>
+               <legend id="skills-legend">Skills and Qualifications</legend>
 
                <!-- the following are the checkbox fields for the 'Skills' field -->
 

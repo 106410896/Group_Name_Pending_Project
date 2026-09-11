@@ -37,7 +37,7 @@ fieldset:hover {
 /* CSS rules for legend styling all go here */
 legend {
     font-weight: bold;
-    color: #c0724c;
+    color: #a04e28;
     padding: 0 10px;
     font-size: 1.1em;
 }
@@ -109,20 +109,20 @@ ________________________________________________________________________________
     cursor: pointer;
 
     transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
-                background-color 0.2 ease;
-                box-shadow: 0.2 ease;
+                background-color 0.2s ease;
+                box-shadow: 0.2s ease;
 }
 
 /* CSS for submit CTA button */
 .end-of-form-buttons input[type="submit"] {
-    background-color: #2ecc71;
+    background-color: #1e8449;
     color: #ffffff;
 }
 
 /* CSS for reset button */
 .end-of-form-buttons input[type="reset"] {
     background-color: transparent;
-    color: #7f8c8d;
+    color: #616a6b;
     border: 2px solid #bdc3c7;
     flex: 1;
 }
