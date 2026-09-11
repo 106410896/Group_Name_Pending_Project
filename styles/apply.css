@@ -15,8 +15,10 @@ description: links to apply.html
 /* changes heading color, size, and makes it bold */
 h1 {
     color: #8b0000;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* turns job ref number label border into blue colour and spaces it out, to make it more standout */
@@ -24,4 +26,39 @@ h1 {
     border: 1px solid blue;
     border-radius:2em;
     margin: 1em;
+}
+
+/* border highlight when user's cursor hovers over fieldset box */
+fieldset:hover {
+    border-color: #4a90e2;
+}
+
+/* CSS rules for legend styling all go here */
+legend {
+    font-weight: bold;
+    color: #c0724c;
+    padding: 0 10px;
+    font-size: 1.1em;
+}
+
+label {
+    font-weight: 500;
+    color: #555555;
+}
+
+fieldset {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+/* glow effect to highlight to user which field they are selecting */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #4a90e2;
+    background-color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
 }
