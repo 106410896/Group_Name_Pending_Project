@@ -23,9 +23,10 @@ h1 {
 
 /* turns job ref number label border into blue colour and spaces it out, to make it more standout */
 #job-ref-num {
-    border: 1px solid blue;
-    border-radius:2em;
-    margin: 1em;
+    border: 2px solid blue;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #edf4fe;
 }
 
 /* border highlight when user's cursor hovers over fieldset box */
@@ -41,16 +42,30 @@ legend {
     font-size: 1.1em;
 }
 
+/* CSS for label elements */
 label {
     font-weight: 500;
     color: #555555;
 }
 
+/* CSS for fieldset elements */
 fieldset {
     border: 2px solid #e0e0e0;
     border-radius: 8px;
     background-color: #ffffff;
     transition: border-color 0.3s ease;
+}
+
+/* consistent styling for all input fields */
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    border: 1px solid #5b0d0d;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
 }
 
 /* glow effect to highlight to user which field they are selecting */
@@ -61,4 +76,39 @@ textarea:focus {
     background-color: #ffffff;
     outline: none;
     box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+/* makes it clear that special input fields that they are interactable */
+input[type="radio"],
+input[type="checkbox"]
+{
+    accent-color: #4a90e2;
+    cursor: pointer;
+}
+
+/* CSS for submit CTA button */
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    padding: 14px 32px;
+
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1),
+                background-color 0.2 ease;
+                box-shadow: 0.2 ease;
+
+}
+
+/* responsive CSS for when hovering over CSS button */
+input[type="submit"]:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(46, 204, 113, 0.3);
+    transition: 0.4s ease;
 }
