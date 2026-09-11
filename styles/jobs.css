@@ -12,21 +12,20 @@ description: CSS file specifically for the Jobs Page
 
 */
 
-body
-{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-
-
+/* Applies spacing between the headings for each Job position */
 h1
 {
     line-height: 50px;
     height: 25px;
 }
 
+
+/* Sets the aside section to right, adds a border and fixes the position so it's always on screen */
 aside
 {
     border: 6px inset rgb(152, 167, 255);
+    background-color: rgb(255, 255, 255);
     font-size: larger;
-    background-color: solid white;
     border-radius: 14px;
 
     width: 30%;
@@ -35,63 +34,66 @@ aside
     float: right;
 
     position: fixed;
-    top: 110px;
+    top: 240px;
     right: 10px;
 }
 
-/* Class Elements */
+/* Manages size, height, color of each Job section */
 .column 
 {
     border: 5px solid lightblue;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    width: 60%; 
+
+    min-width: 30em;
+    max-width: 55em; 
     height: 100%;
     margin: 1em;
     padding: 10px;
 }
 
-.auto_view
+/* Stacks the class elements horizontally */
+.auto-view
 {
     display: flex;
 }
 
-.auto_view li
+/* Applies color, font size to each list item as well as adding spacing between each */
+.auto-view li
 {
     color: #4a4a4a;
     font-size: large;
     margin-inline: 20px;
 }
 
-.toggle_view
+/* Sets certain text in Jobs section to be hidden by default */
+.toggle-view
 {
     display: none;
 } 
 
-
+/* Allows hidden text to become visable when the mouse hovers over the column */
 .column:hover
 {
-    .toggle_view
-    {
-        display: contents;
-    }
+    .toggle-view {display: contents;}
 }
 
+/* Apply buttons at the end of every Job position */
 .button 
 {
     text-decoration: none;
     color: aliceblue;
-    box-shadow: 10px #aaaaaa;
     background-color: rgb(118, 151, 171);
     padding: 8px;
     border-radius: 24px;
     gap: 10px;
 }
 
+/* Changes background color and adds shadow when mouse hovers over it */
 .button:hover
 {
     color: rgb(240, 240, 255);
-    box-shadow: -5px 5px 10px #aaaaaa;
+    box-shadow: -5px 5px 10px #a7a6a6;
     background-color: rgb(25, 0, 255);
     padding: 8px;
     border-radius: 24px;
