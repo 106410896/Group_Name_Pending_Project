@@ -169,16 +169,14 @@ tr:hover {
 .pillar p {
     color: #8b949e;
     font-size: 0.95rem;
-}
-/* =========================================================
-   WHY JOIN US -By Kshitij Shetty
-   ========================================================= */
+} 
+  /* WHY JOIN US -By Kshitij Shetty */
 
 .why-join-us {
 <<<<<<< HEAD
     background-color: #ffffff; 
 =======
-    background-color: #ffffff; /* Clean white background */
+    background-color: #ffffff; /* white bg */
 >>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
     border-radius: 12px;
     padding: 50px 40px;
@@ -187,7 +185,7 @@ tr:hover {
 <<<<<<< HEAD
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); 
 =======
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Very subtle, professional shadow */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* shadow */
 >>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
 }
 
@@ -201,7 +199,7 @@ tr:hover {
     letter-spacing: 1px;
 }
 
-/* Main Paragraph - Professional Black */
+/* Main Paragraph -Blk */
 .why-join-us .bold-text {
     color: #000000;
     font-size: 1.1rem;
@@ -211,31 +209,23 @@ tr:hover {
     margin: 0 auto 40px auto;
 }
 
-<<<<<<< HEAD
-/
-=======
-/* Highlighted words ) */
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
+/* Highlighted Words ) */
+
 .why-join-us .bold-text strong {
     color: #1f6feb; 
     font-weight: 700;
 }
 
-/* Power-box */
+/* Power-box bg color*/
 .power-box {
-    background-color: #f8f9fa; /* light grey */
+    background-color: #f8f9fa; 
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 30px;
     max-width: 700px;
     margin: 0 auto;
 }
-
-<<<<<<< HEAD
 /* Power-boxText - */
-=======
-/* Power-boxText - Black */
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
 .power-box {
     color: #000000;
     font-size: 1.1rem;
@@ -244,12 +234,7 @@ tr:hover {
     line-height: 1.6;
 }
 
-<<<<<<< HEAD
-
-/* Power-BOX BOLD TEXT */ 
-=======
-/* Power-Box text - Blue */
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
+/* power box text */
 .power-box p strong {
     color: #1f6feb;
     font-weight: 700;
@@ -270,7 +255,7 @@ tr:hover {
     transition: background-color 0.2s ease;
 }
 
-/* "View Open Roles"  */
+/* "View Open Roles" */
 .power-box .button:first-of-type {
     color: #ffffff;
     background-color: #1f6feb;
@@ -281,11 +266,8 @@ tr:hover {
     background-color: #388bfd;
 }
 
-/* "Apply" - */
-<<<<<<< HEAD
+/* "Apply" */
 
-=======
->>>>>>> cb80692eaf0f67598da0c990d9954c3e2e88cdac
 .power-box .button:last-of-type {
     color: #ffffff;
     background-color: #000000;
