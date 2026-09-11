@@ -18,58 +18,30 @@ body {
     line-height: 1.6;
 }
 
-header {
+.brand {
     text-align: left;
     padding: 30px 20px;
+
     background: linear-gradient(to bottom right, #003366, #005599);
+    
     color: white;
 }
 
-header img {
+.brand img {
     margin-bottom: 10px;
     max-width: 150px;
     height: auto;
 }
 
-header h1 {
+.brand h1 {
     text-align: center;
     margin: 10px 0 5px;
     font-size: 2.2rem;
 }
 
-header p {
+.brand p {
     font-size: 1.1rem;
     opacity: 0.9;
-}
-
-nav {
-    background-color: #003366;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-nav li {
-    display: inline-block;
-    margin: 0 15px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    padding: 6px 10px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    background-color: #005599;
-    border-radius: 5px;
 }
 
 main {
